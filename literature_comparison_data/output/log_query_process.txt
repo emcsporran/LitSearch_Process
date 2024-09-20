@@ -1,0 +1,36 @@
+This script will analyse the data from the different queries.
+--------------------------------------------------
+Comparing two lists.
+The short list has length:	88
+The long list has length:	287
+Checking is complete, 53 duplicate entries were found.
+New combined list is expanded from 287 to 322.
+--------------------------------------------------
+Comparing two lists.
+The short list has length:	30
+The long list has length:	322
+Checking is complete, 5 duplicate entries were found.
+New combined list is expanded from 322 to 347.
+--------------------------------------------------
+The distribution of articles against their published year is:
+[ 1  1  5  2  0  3  1  4  3  6  5  4  7  7 10  8  5  7  4  5  3  3  5  4
+  4  4  8 10 11  9 11 11 18 19 18 21 15 11 15 11 17 13 18]
+--------------------------------------------------
+Modification of the final_query list to change the DOCUMENT TYPE column.
+Selected entries have the keywords, ['Conference', 'Proceeding'].
+These are then replaced by the term, 'Conference Proceeding'.
+--------------------------------------------------
+Modification of the final_query list to change the DOCUMENT TYPE column.
+Selected entries have the keywords, ['Article', 'Journal', 'Review'].
+These are then replaced by the term, 'Journal Article'.
+--------------------------------------------------
+The list is being split based on the DOCUMENT TYPE column.
+The split will leave all entries with the term 'Conference Proceeding'.
+This new list has a length 188.
+--------------------------------------------------
+The list is being split based on the DOCUMENT TYPE column.
+The split will leave all entries with the term 'Journal Article'.
+This new list has a length 137.
+--------------------------------------------------
+The final_query data has now been written to a csv file in the output folder.
+--------------------------------------------------
